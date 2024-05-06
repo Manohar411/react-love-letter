@@ -36,13 +36,14 @@ const LoveLetter = () => {
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
         Dear kundanapu bomma🖤,<br />
-        Wish you many more Happy Returns of the Day Siriii...<br />i loveeee youuuu :)<br />
+        mah dear kundanapu bomma🖤,<br />
+        Wish you Many More Happy Returns of the Day Siriii...<br />i loveeee youuuu :)<br />
         always yours,<br />
-        @manohar
+        @Manuuuu....
       </div>
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
     </div>
   );
 };
 
-export default Special Day to Special Person;
+export default BirthdayCard;
